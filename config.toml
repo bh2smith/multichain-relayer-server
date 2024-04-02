@@ -30,6 +30,7 @@ flametrace_performance = true
 "4" = { name = "ETHEREUM_RINKEBY", rpc_url = "https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID", supported = false }
 "5" = { name = "ETH_GOERLI", rpc_url = "https://goerli.infura.io/v3/YOUR_PROJECT_ID", supported = false }
 "42" = { name = "ETHEREUM_KOVAN", rpc_url = "https://kovan.infura.io/v3/YOUR_INFURA_PROJECT_ID", supported = false }
+"11155111" = { name = "SEPOLIA_TESTNET", rpc_url = "https://rpc2.sepolia.org", supported = false }
 
 # Binance Smart Chain
 "56" = { name = "BSC_MAINNET", rpc_url = "https://bsc-dataseed.binance.org", supported = false }

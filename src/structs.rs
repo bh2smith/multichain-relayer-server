@@ -1,6 +1,5 @@
-use std::collections::HashMap;
 use serde::{Deserialize, Serialize};
-
+use std::collections::HashMap;
 
 #[derive(Deserialize)]
 pub struct Config {
@@ -10,11 +9,10 @@ pub struct Config {
 
 #[derive(Deserialize)]
 pub struct ChainConfig {
-    pub(crate) name: String,
+    // pub(crate) name: String,
     pub(crate) rpc_url: String,
     pub(crate) supported: bool,
 }
-
 
 #[derive(Clone, Debug, Deserialize)]
 pub struct TransactionRequest {
